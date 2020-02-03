@@ -68,17 +68,6 @@
       </drop-down>
       <li class="nav-item">
         <a
-          class="nav-link btn btn-neutral"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit-pro"
-          target="_blank"
-        >
-          <i class="now-ui-icons arrows-1_share-66"></i>
-          <p>Upgrade to PRO</p>
-        </a>
-      </li>
-
-      <li class="nav-item">
-        <a
           class="nav-link"
           rel="tooltip"
           title="Follow us on Twitter"

@@ -35,12 +35,6 @@
             We deliver services in Bridal, Photoshoots,  Runway and Editorial events. 
             Its either a whole lot of glam and law.
             </h5>
-            <!-- <h5 class="description">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record low
-              maximum sea ice extent tihs year down to low ice extent in the
-              Pacific and a late drop in ice extent in the Barents Sea.
-            </h5> -->
           </div>
         </div>
         <div class="separator separator-primary"></div>
@@ -49,149 +43,111 @@
             <div class="col-md-6">
               <div
                 class="image-container image-left"
-                style="background-image: url('img/login.jpg')"
+                style="background-image: url('img/kash2.jpg')"
               >
                 <!-- First image on the left side -->
                 <p class="blockquote blockquote-primary">
-                  "Over the span of the satellite record, Arctic sea ice has
-                  been declining significantly, while sea ice in the
-                  Antarctichas increased very slightly"
+                  "I believe that all women are pretty without makeup, but with the right makeup can be pretty powerful "
                   <br />
                   <br />
-                  <small>-NOAA</small>
+                  <small>-Bobby Brown</small>
                 </p>
               </div>
-              <!-- Second image on the left side of the article -->
-              <div
-                class="image-container"
-                style="background-image: url('img/bg3.jpg')"
-              ></div>
             </div>
             <div class="col-md-5">
               <!-- First image on the right side, above the article -->
               <div
                 class="image-container image-right"
-                style="background-image: url('img/bg1.jpg')"
+                style="background-image: url('img/kash.jpg')"
               ></div>
-              <h3>
-                So what does the new record for the lowest level of winter ice
-                actually mean
-              </h3>
-              <p>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
-              </p>
-              <p>
-                For a start, it does not automatically follow that a record
-                amount of ice will melt this summer. More important for
-                determining the size of the annual thaw is the state of the
-                weather as the midnight sun approaches and temperatures rise.
-                But over the more than 30 years of satellite records, scientists
-                have observed a clear pattern of decline, decade-by-decade.
-              </p>
-              <p>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
-              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="section section-team text-center">
-      <div class="container">
-        <h2 class="title">Here is our team</h2>
-        <div class="team">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="team-player">
-                <img
-                  src="img/avatar.jpg"
-                  alt="Thumbnail Image"
-                  class="rounded-circle img-fluid img-raised"
-                />
-                <h4 class="title">Romina Hadid</h4>
-                <p class="category text-primary">Model</p>
-                <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
-                </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-facebook-square"></i
-                ></a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="team-player">
-                <img
-                  src="img/ryan.jpg"
-                  alt="Thumbnail Image"
-                  class="rounded-circle img-fluid img-raised"
-                />
-                <h4 class="title">Ryan Tompson</h4>
-                <p class="category text-primary">Designer</p>
-                <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
-                </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="team-player">
-                <img
-                  src="img/eva.jpg"
-                  alt="Thumbnail Image"
-                  class="rounded-circle img-fluid img-raised"
-                />
-                <h4 class="title">Eva Jenner</h4>
-                <p class="category text-primary">Fashion</p>
-                <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
-                </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-google-plus"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-youtube"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-twitter"></i
-                ></a>
+    <!-- carousel -->
+    <div class="col-md-6 ml-auto mr-auto">
+            <h4 class="title text-center">My Portfolio</h4>
+          </div>
+    <tabs pills
+            class="nav-align-center"
+            tab-content-classes="gallery"
+            tab-nav-classes="nav-pills-just-icons"
+            type="primary">
+      <tab-pane label="SFX">
+        <i slot="label">SFX</i>
+        <div class="section" id="carousel">
+          <div class="container">
+            <!-- <div class="title">
+              <h4>SFX</h4>
+            </div> -->
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <el-carousel height="500px">
+                  <el-carousel-item  margin="auto">
+                    <img class="d-block" src="img/sfx/img1.jpg" alt="" width="50%" margin="auto" left="40px"/>
+                  </el-carousel-item>
+                  <el-carousel-item>
+                    <img class="d-block" src="img/sfx/img2.jpg" alt="" height="100%" width="50%"/>
+                  </el-carousel-item>
+                </el-carousel>
               </div>
             </div>
           </div>
-        </div>
       </div>
-    </div>
+    </tab-pane>
+    <tab-pane label="Random">
+        <i slot="label">Random</i>
+          <div class="section" id="carousel">
+            <div class="container">
+              <!-- <div class="title">
+                <h4>Folder 1</h4>
+              </div> -->
+              <div class="row justify-content-center">
+                <div class="col-8">
+                  <el-carousel height="500px">
+                    <el-carousel-item>
+                      <img class="d-block" src="img/folder1/img1.jpg" alt="First slide" height="100%" width="50%"/>
+                    </el-carousel-item>
+                    <el-carousel-item>
+                      <img class="d-block" src="img/folder1/img2.jpg" alt="Second slide" height="100%" width="50%"/>
+                    </el-carousel-item>
+                    <el-carousel-item>
+                      <img class="d-block" src="img/folder1/img3.jpg" alt="Third slide" height="100%" width="50%"/>
+                    </el-carousel-item>
+                  </el-carousel>
+                </div>
+              </div>
+          </div>
+        </div>
+    </tab-pane>
+    <tab-pane label="Bridal">
+        <i slot="label">Bridal</i>
+          <div class="section" id="carousel">
+            <div class="container">
+              <!-- <div class="title">
+                <h4>Folder 2</h4>
+              </div> -->
+              <div class="row justify-content-center">
+                <div class="col-8">
+                  <el-carousel height="500px" >
+                    <el-carousel-item>
+                      <img class="d-block" src="img/folder2/img1.jpg" alt="First slide" height="100%" width="50%"/>
+                    </el-carousel-item>
+                    <el-carousel-item>
+                      <img class="d-block" src="img/folder2/img2.jpg" alt="Second slide" height="100%" width="50%"/>
+                    </el-carousel-item>
+                    <el-carousel-item>
+                      <img class="d-block" src="img/folder2/img3.jpg" alt="Third slide" height="100%" width="50%"/>
+                    </el-carousel-item>
+                  </el-carousel>
+                </div>
+              </div>
+            </div>
+        </div>
+    </tab-pane>
+    </tabs>
+          <!-- end carousel -->
     <div class="section section-contact-us text-center">
       <div class="container">
         <h2 class="title">Want to work with us?</h2>
@@ -235,22 +191,31 @@
 </template>
 <script>
 import { Button, FormGroupInput } from '@/components';
+import { Tabs, TabPane } from '@/components';
+import { Carousel, CarouselItem } from 'element-ui';
+
 export default {
   name: 'about',
 //   bodyClass: 'landing-page',
   components: {
     [Button.name]: Button,
-    [FormGroupInput.name]: FormGroupInput
+    [FormGroupInput.name]: FormGroupInput,
+    [Carousel.name]: Carousel,
+    [CarouselItem.name]: CarouselItem,
+    Tabs,
+    TabPane
   },
   data() {
     return {
       form: {
         firstName: '',
         email: '',
-        message: ''
-      }
+        message: '',
+      },
+      images:[]
     };
   }
 };
+
 </script>
 <style></style>
