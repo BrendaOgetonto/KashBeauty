@@ -7,20 +7,10 @@
     menu-classes="ml-auto"
   >
     <template slot-scope="{ toggle, isToggled }">
-      <router-link v-popover:popover1 class="navbar-brand" to="/">
-        Now Ui Kit
+      <router-link class="navbar-brand" to="/">
+        <!-- <img class="d-block" src="img/logo/logo_brown.png" alt="" height='16px' width='16px'/> -->
+        
       </router-link>
-      <el-popover
-        ref="popover1"
-        popper-class="popover"
-        placement="bottom"
-        width="200"
-        trigger="hover"
-      >
-        <div class="popover-body">
-          Designed by Invision. Coded by Creative Tim
-        </div>
-      </el-popover>
     </template>
     <template slot="navbar-menu">
       <li class="nav-item">
@@ -29,48 +19,35 @@
           href="https://www.creative-tim.com/product/vue-now-ui-kit"
           target="_blank"
         >
-          <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-          <p>Download</p>
+          <i class="now-ui-icons business_bank"></i>
+          <p>Home</p>
         </a>
       </li>
-      <drop-down
-        tag="li"
-        title="Components"
-        icon="now-ui-icons design_app"
-        class="nav-item"
-      >
-        <nav-link to="/">
-          <i class="now-ui-icons business_chart-pie-36"></i> All components
-        </nav-link>
+      <li class="nav-item">
         <a
-          href="https://demos.creative-tim.com/vue-now-ui-kit/documentation"
+          class="nav-link"
+          href="https://www.creative-tim.com/product/vue-now-ui-kit"
           target="_blank"
-          class="dropdown-item"
         >
-          <i class="now-ui-icons design_bullet-list-67"></i> Documentation
+          <i class="now-ui-icons media-1_album"></i>
+          <p>Gallery</p>
         </a>
-      </drop-down>
-      <drop-down
-              tag="li"
-              title="Examples"
-              icon="now-ui-icons design_image"
-              class="nav-item"
-      >
-        <nav-link to="/landing">
-          <i class="now-ui-icons education_paper"></i> Landing
-        </nav-link>
-        <nav-link to="/login">
-          <i class="now-ui-icons users_circle-08"></i> Login
-        </nav-link>
-        <nav-link to="/profile">
-          <i class="now-ui-icons users_single-02"></i> Profile
-        </nav-link>
-      </drop-down>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          href="https://www.creative-tim.com/product/vue-now-ui-kit"
+          target="_blank"
+        >
+          <i class="now-ui-icons education_paper"></i>
+          <p>Blog</p>
+        </a>
+      </li>
       <li class="nav-item">
         <a
           class="nav-link"
           rel="tooltip"
-          title="Follow us on Twitter"
+          title="Follow me on Twitter"
           data-placement="bottom"
           href="https://twitter.com/KashBeauty1"
           target="_blank"
@@ -83,7 +60,7 @@
         <a
           class="nav-link"
           rel="tooltip"
-          title="Like us on Facebook"
+          title="Like me on Facebook"
           data-placement="bottom"
           href="https://www.facebook.com/CreativeTim"
           target="_blank"
@@ -96,7 +73,7 @@
         <a
           class="nav-link"
           rel="tooltip"
-          title="Follow us on Instagram"
+          title="Follow me on Instagram"
           data-placement="bottom"
           href="https://www.instagram.com/kashbeauty07"
           target="_blank"

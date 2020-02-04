@@ -9,6 +9,10 @@
     .carousel-inner{
         box-shadow: $box-shadow-raised;
         border-radius: $border-radius-small;
+        max-height: 400x;
+            .item-img{
+            display:inline-block  !important;
+        }
     }
 
     .card {

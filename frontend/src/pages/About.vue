@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="page-header page-header-small">
+    <div class="page-header">
       <parallax
         class="page-header-image"
         style="background-image: url('img/makeup_brushes.jpg')"
@@ -8,7 +8,8 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">Kash Beauty.</h1>
+          <img class="d-block" src="img/logo/logo_brown.png" alt=""/>
+          <!-- <h1 class="title">Kash Beauty.</h1> -->
           <div class="text-center">
             <a href="#pablo" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-facebook-square"></i>
@@ -72,7 +73,7 @@
     <tabs pills
             class="nav-align-center"
             tab-content-classes="gallery"
-            tab-nav-classes="nav-pills-just-icons"
+            tab-nav-classes="nav-tabs"
             type="primary">
       <tab-pane label="SFX">
         <i slot="label">SFX</i>
@@ -84,11 +85,11 @@
             <div class="row justify-content-center">
               <div class="col-8">
                 <el-carousel height="500px">
-                  <el-carousel-item  margin="auto">
-                    <img class="d-block" src="img/sfx/img1.jpg" alt="" width="50%" margin="auto" left="40px"/>
+                  <el-carousel-item  text-align="center">
+                    <img class="d-block center" src="img/sfx/img1.jpg" alt="" height="100%" margin="auto"/>
                   </el-carousel-item>
                   <el-carousel-item>
-                    <img class="d-block" src="img/sfx/img2.jpg" alt="" height="100%" width="50%"/>
+                    <img class="d-block" src="img/sfx/img2.jpg" alt="" height="100%"/>
                   </el-carousel-item>
                 </el-carousel>
               </div>
@@ -107,13 +108,13 @@
                 <div class="col-8">
                   <el-carousel height="500px">
                     <el-carousel-item>
-                      <img class="d-block" src="img/folder1/img1.jpg" alt="First slide" height="100%" width="50%"/>
+                      <img class="d-block" src="img/folder1/img1.jpg" alt="First slide" height="500px"/>
                     </el-carousel-item>
                     <el-carousel-item>
-                      <img class="d-block" src="img/folder1/img2.jpg" alt="Second slide" height="100%" width="50%"/>
+                      <img class="d-block" src="img/folder1/img2.jpg" alt="Second slide"/>
                     </el-carousel-item>
                     <el-carousel-item>
-                      <img class="d-block" src="img/folder1/img3.jpg" alt="Third slide" height="100%" width="50%"/>
+                      <img class="d-block" src="img/folder1/img3.jpg" alt="Third slide"/>
                     </el-carousel-item>
                   </el-carousel>
                 </div>
@@ -130,7 +131,7 @@
               </div> -->
               <div class="row justify-content-center">
                 <div class="col-8">
-                  <el-carousel height="500px" >
+                  <el-carousel height="500px">
                     <el-carousel-item>
                       <img class="d-block" src="img/folder2/img1.jpg" alt="First slide" height="100%" width="50%"/>
                     </el-carousel-item>
@@ -193,6 +194,7 @@
 import { Button, FormGroupInput } from '@/components';
 import { Tabs, TabPane } from '@/components';
 import { Carousel, CarouselItem } from 'element-ui';
+// import '@/assets/scss/now-ui-kit.scss'
 
 export default {
   name: 'about',
@@ -218,4 +220,5 @@ export default {
 };
 
 </script>
-<style></style>
+<style>
+</style>
